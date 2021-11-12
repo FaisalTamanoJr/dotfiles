@@ -29,7 +29,7 @@ These dotfiles are intended to go with numerous suckless programs I use:
 Use [my install script](https://github.com/FaisalTamanoJr/install_script) to autoinstall everything:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+git clone https://github.com/FaisalTamanoJr/install_script.git
 ```
 
 or clone the repo files directly to your home directory and install the
@@ -37,4 +37,4 @@ or clone the repo files directly to your home directory and install the
 
 ## Default Desktop Artwork
 
-Gruvbox Lines ([SOURCE](https://store.kde.org/p/1436388/)
+Gruvbox Lines ([SOURCE](https://store.kde.org/p/1436388/))
