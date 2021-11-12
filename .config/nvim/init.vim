@@ -17,10 +17,11 @@ Plug 'vimwiki/vimwiki'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 set title
-set bg=light
+set bg=dark
 set go=a
 set mouse=a
 set nohlsearch
@@ -29,6 +30,8 @@ set noshowmode
 set noruler
 set laststatus=0
 set noshowcmd
+set termguicolors
+colorscheme gruvbox
 
 " Some basics:
 	nnoremap c "_c
